@@ -1,0 +1,95 @@
+@import url('https://fonts.cdnfonts.com/css/cascadia-code');
+* {
+    font-family: "Cascadia Code";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html {
+    height: 100%;
+    width:100%;
+    background-color: rgb(44, 44, 44);
+    background-image: linear-gradient(-15deg, rgb(95, 95, 95), rgb(225, 225, 225));
+    color: rgb(211, 211, 211);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-image: linear-gradient(-15deg, rgba(95, 95, 95, 0.45), rgba(225, 225, 225, 0.459)), url(./bg.gif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    background-color: rgba(211, 211, 211, 0.689);
+    margin:auto;
+    border-radius: 20px;
+    box-shadow: 0 0 32px rgba(0,0,0,0.5);
+    min-height:75%;
+    height: auto;
+    width:75%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    backdrop-filter: blur(5px);
+}
+
+.box {
+    display: flex;
+    background-color: rgba(41, 41, 41, 0.731);
+    height:100px;
+    font-size: 20px;
+    width:90%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.confi {
+        display: flex;
+    background-color: rgba(41, 41, 41, 0.562);
+    height:100px;
+    width:90%;
+    font-size: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.record {
+        display: flex;
+    background-color: rgba(254, 60, 60, 0.731);
+    height:50px;
+    width:50px;
+    border-radius: 100%;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: scale(1.5);
+    transition: 500ms;
+    cursor: pointer;
+}
+
+.record:hover {
+    transform: scale(2);
+}
+
+h2 {
+    color:rgb(44, 44, 44);
+    font-size: 30px;
+}
+
+h1 {
+    color:white;
+}

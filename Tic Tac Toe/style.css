@@ -1,0 +1,96 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.cdnfonts.com/css/cascadia-code');
+* {
+    font-family: "Cascadia Code";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: rgb(203, 203, 203);
+    background-color: rgb(31, 31, 31);
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    user-select: none;
+}
+
+.header {
+    font-size: 50px;
+    font-weight: 800;
+    margin-top: 40px;
+    margin-bottom: 12px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 60px 0 20px 0;
+    box-shadow: 0 0 32px rgb(0, 0, 0);
+}
+
+.cell {
+    width: 120px;
+    height: 120px;
+    border: 6px solid rgb(27, 25, 25);
+    text-align: center;
+    vertical-align: middle;
+    line-height: 120px;
+    font-size: 120px;
+    cursor: pointer;
+    background-color: rgba(230, 230, 230, 0.582);
+    color: rgb(44, 44, 44);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: underline;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+.status {
+    color: rgb(213, 213, 213);
+    /* color: orangered; */
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.restart {
+    color: rgb(65, 65, 65);
+    background-color: rgb(231, 231, 231);
+    font-size: 24px;
+    font-weight: 600;
+    order: 1;
+    margin: 40px;
+    padding: 16px;
+    border: 0;
+    border-radius: 40px;
+    width: 160px;
+    cursor: pointer;
+    transition: 500ms;
+}
+
+.restart:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(48, 48, 48);
+    box-shadow: 0 5px 15px rgba(167, 167, 167, 0.4);
+}
+
+a,
+a:visited {
+    color: black;
+}
