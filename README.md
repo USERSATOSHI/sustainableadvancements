@@ -19,3 +19,13 @@ Supports 2 Player, color highlight on which combination the current player won,a
 Tech-Stack: HTML, CSS, JavaScript
 
 Link: [Tic Tac Toe](https://usersatoshi.github.io/sustainableadvancements/Tic%20Tac%20Toe/)
+
+
+## Home Page
+
+a prototype react web app on homepage of the company inluding the links of task provided in the assignment
+Tech-stack: HTML, CSS, ReactJS, NodeJs
+
+Project Time:  5hrs ( 7 pm -> 12am )
+
+Link : [HomePage](https://sustainableadvancements.vercel.app/)
