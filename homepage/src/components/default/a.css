@@ -1,0 +1,26 @@
+:root {
+    --primary-color: #00A896;
+    --secondary-color: #02C39A;
+    --third-color:#4EC4AE;
+    --constrast-color: #0D0221;
+    --secondary-bg-color: #707070;
+    --primary-bg-color: #EFEFEF;
+    --dark-bg-color: #333232;
+}
+
+::-webkit-scrollbar {
+    background-color: transparent;
+    z-index: 500;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #58ffee40;
+    z-index: 500;
+    transition: 500ms;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #02c399c5
+}
+
+@import url("https://fonts.cdnfonts.com/css/cascadia-code");
